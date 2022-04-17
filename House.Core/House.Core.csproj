@@ -11,8 +11,4 @@
     </PackageReference>
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\House.Data\House.Data.csproj" />
-  </ItemGroup>
-
 </Project>

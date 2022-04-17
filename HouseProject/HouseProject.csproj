@@ -14,7 +14,6 @@
   <ItemGroup>
     <ProjectReference Include="..\House.ApplicationServices\House.ApplicationServices.csproj" />
     <ProjectReference Include="..\House.Core\House.Core.csproj" />
-    <ProjectReference Include="..\House.Data\House.Data.csproj" />
   </ItemGroup>
 
 </Project>
