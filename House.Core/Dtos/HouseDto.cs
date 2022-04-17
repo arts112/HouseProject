@@ -1,12 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System;
 
-namespace HouseProject.Models.House
+
+namespace House.Core.Dtos
 {
-    public class HouseListViewModel
+    public class HouseDto
     {
         public Guid? Id { get; set; }
         public string Adress { get; set; }

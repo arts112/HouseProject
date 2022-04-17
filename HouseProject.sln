@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HouseProject", "HouseProject\HouseProject.csproj", "{BE9F24BC-8CB7-4764-99A2-9438BE69A328}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3710ED93-A4BD-4755-8423-A189CB5E6116} = {3710ED93-A4BD-4755-8423-A189CB5E6116}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "House.ApplicationServices", "House.ApplicationServices\House.ApplicationServices.csproj", "{C11AA90A-CB7F-4B60-9183-92AEE0A40AC8}"
 EndProject
