@@ -25,7 +25,7 @@ namespace House.ApplicationServices.Services
             Houses houses = new Houses();
 
             houses.Id = Guid.NewGuid();
-            houses.Adress = dto.Adress;
+            houses.Address = dto.Address;
             houses.Size = dto.Size;
             houses.Price = dto.Price;
             houses.Description = dto.Description;
@@ -52,7 +52,7 @@ namespace House.ApplicationServices.Services
             Houses houses = new Houses();
 
             houses.Id = Guid.NewGuid();
-            houses.Adress = dto.Adress;
+            houses.Address = dto.Address;
             houses.Size = dto.Size;
             houses.Price = dto.Price;
             houses.Description = dto.Description;
