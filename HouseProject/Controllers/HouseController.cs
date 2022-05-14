@@ -30,7 +30,7 @@ namespace HouseProject.Controllers
         public IActionResult Index()
         {
             var result = _context.Houses
-                //.OrderByDescending(y => y.CreatedAt)
+                
                 .Select(x => new HouseListViewModel
                 {
                     Id = x.Id,
