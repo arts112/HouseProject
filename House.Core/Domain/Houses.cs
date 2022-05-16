@@ -5,7 +5,7 @@ namespace House.Core.Domain
 {
     public class Houses
     {
-        [Key]
+        
         public Guid? Id { get; set; }
         public string Address { get; set; }
         public double Size { get; set; }
