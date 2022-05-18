@@ -51,7 +51,7 @@ namespace House.ApplicationServices.Services
         {
             Houses houses = new Houses();
 
-            houses.Id = Guid.NewGuid();
+            houses.Id = dto.Id;
             houses.Address = dto.Address;
             houses.Size = dto.Size;
             houses.Price = dto.Price;
